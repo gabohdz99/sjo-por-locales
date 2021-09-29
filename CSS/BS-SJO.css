@@ -1,0 +1,310 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #fff !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #071219;
+  font-family: "Libre Baskerville", serif !important;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #071219;
+}
+
+.font1 {
+  color: black;
+  font-family: Helvetica;
+}
+
+p,
+li {
+  font-family: Helvetica;
+  color: #071219;
+}
+
+.itembold {
+  font-weight: bold;
+}
+
+.navbar-1 {
+  text-decoration: none;
+}
+
+.navbar-2 {
+  background-image: url("https://museosdelbancocentral.org/wp-content/uploads/2021/01/slider-principal_9-min.png"); /*poner imagen correcta*/
+  text-decoration: none;
+}
+
+.logo {
+  margin-left: 50px;
+  height: 50px;
+  width: 50px;
+}
+
+nav .nav-item {
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+  margin: 0px 50px;
+}
+
+.head-banner {
+  background-image: url("../img/Morazan.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+.mid-banner {
+  background-image: url("https://museosdelbancocentral.org/wp-content/uploads/2021/01/slider-principal_9-min.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  margin: 30px 0px;
+}
+lifont col .col-6-fluid {
+  padding-right: 0%;
+}
+.selina {
+  width: 99%;
+}
+
+.img-lugar {
+  height: 285px;
+  width: 100%;
+}
+
+.h5-text {
+  margin: 15px 0px;
+}
+
+.footer-line {
+  height: 2px;
+  width: auto;
+  margin: 30px 0px;
+  background-color: #ec9513;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+.redes {
+  height: 50px;
+  width: 50px;
+  margin: 0 5px;
+}
+
+.image {
+  cursor: pointer;
+  opacity: 1;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.image:hover {
+  opacity: 0.85;
+}
+
+.img-index {
+  object-fit: cover;
+  width: 100%;
+}
+
+.selinaSmaller {
+  width: 30%;
+  margin-right: 30px;
+}
+
+.footerContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footerColumn {
+  margin: 0 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 20%;
+}
+
+.networkIconsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.pageTitle {
+  font-family: "Libre Baskerville", serif;
+  color: #071219;
+  padding: auto;
+  /* margin-top: 80px; */
+  /* margin-bottom: 60px; */
+  margin-left: 18%;
+  display: flex;
+  flex-direction: row;
+}
+.space {
+  margin-top: 20px;
+}
+
+.floatingNavBar {
+  position: fixed;
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  z-index: 10;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.floatingNavBar2 {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  z-index: 10;
+  background-color: #ec9513;
+  text-decoration: none;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+#itemContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#recomendados {
+  padding-left: 1.4rem;
+}
+
+/*Selina home page*/
+
+/* Nav bar */
+
+.navbar-nav {
+  flex-direction: row;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navigation-checkbox {
+  display: none;
+}
+
+.navigation__button {
+  font-size: 25px;
+  display: none;
+}
+
+.nav-res {
+  display: none;
+}
+
+@media only screen and (max-width: 990px) {
+  .navbar-nav {
+    flex-direction: column;
+  }
+
+  .navigation__button {
+    display: block;
+  }
+  .nav-res {
+    display: flex;
+  }
+
+  .navigation_dependable {
+    display: none;
+  }
+
+  .floatingNavBar2 {
+    flex-wrap: wrap;
+  }
+
+  .floatingNavBar {
+    flex-wrap: wrap;
+  }
+
+  .footer-socials {
+    width: 40%;
+  }
+
+  #itemContainer {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .selinaSmallerP {
+    flex-wrap: wrap;
+  }
+  .selinaSmaller {
+    flex-basis: 100%;
+  }
+}
+
+.navigation__button:hover {
+  cursor: pointer;
+}
+
+.navigation-checkbox:checked ~ .navigation_dependable {
+  display: block !important;
+}
+
+.containerBox {
+  position: relative;
+  display: inline-block;
+  background-image: url("https://museosdelbancocentral.org/wp-content/uploads/2021/01/slider-principal_9-min.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  margin: 30px 0px;
+}
+.text-box {
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 10%;
+  height: 100%;
+  width: 100%;
+}
+.text-box:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+h4 {
+  display: inline-block;
+  font-family: Helvetica, Arial;
+  font-size: 20px; /*or whatever you want*/
+  color: #fff;
+}
+.img {
+  display: block;
+  width: 100%;
+  height: 500px;
+}

@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio histórico</title>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="CSS/bootstrap.css" rel="stylesheet">
+    <link href="CSS/estilospropios.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/BS-SJO.css">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar-1 navbar navbar-expand-lg navbar-light">
+    <a href="Index.html"><img src="icons/SJO.png" alt="logo" width="80" height="80" class="logo"></a>
+    <input class="navbar-toggler navigation-checkbox" type="checkbox" id="navi-toggle">
+    </input>
+    <label for="navi-toggle" class="navigation__button">
+      <span class="navbar-toggler-icon"></span>
+    </label>
+    <div class="navbar-collapse text-center navigation_dependable" id="navbarNavAltMarkup">
+      <div class="nav navbar-nav navbar-collapse itemContainer" id="itemContainer">
+        <h4 class="nav-item nav-link"><a id="button1" href="./Ruta.html">Camino</a></h4>
+        <h4 class="nav-item nav-link"><a id="button2" href="./Sitiohistorico.html">Sitio Histórico</a></h4>
+        <h4 class="nav-item nav-link"><a id="button3" href="./restaurante.html">Restaurante</a></h4>
+        <h4 class="nav-item nav-link"><a id="button4" href="./hospedaje.html">Alojamiento</a></h4>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div class="title">
+    <h1>Casa Matute</h1>
+    <img src="icons/historical.svg" alt="logo" width="80" height="80" class="logo">
+  </div>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/casamatute1.jpg" alt="Casa Matute en blnaco y negro">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1 style="color: white;">Antik</h1>
+            <p style="color: white;">Actualmente es un bar restaurante con diferentes niveles y experiencias</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/casamatute3.jpg" alt="Casa Matute de noche">
+      </div>
+      <div class="carousel-item">
+        <img src="img/casamatute2.jpg" alt="Sala de Casa Matute">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1 style="color: white;">Fallas técnias</h1>
+            <p style="color: white;">Los cimientos y los pisos tuvieron que ser reemplazados pero son iguales  a los originales.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/casamatute5.jpg" alt="Casa Matute de color pastel">
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/casamatute4.jpg" alt="Casa Matute como bar">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1 style="color: white;">Patrimonio Histórico Arquitectónico</h1>
+            <p style="color: white;">Debido a sus historia, belleza, centro turístico y de dispersión social</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-12">
+        <h2>Reseña Histórica</h2>
+        <br>
+        <br>
+        <p style="text-align: justify;">
+          Esta magnífica edificación, de estilo ecléctico, que combina elementos modernistas y neoclásicos, con algunos rasgos neorrománicos, dichosamente ha sobrevivido
+          a la voracidad de demolición del patrimonio arquitectónico del país. Fue construida a finales de la década de 1920, por encargo del Dr. Ricardo Moreno Cañas, 
+          afamado médico de amplio reconocimiento histórico en el país. Aparentemente, sus incursiones en la política costarricense, que lo llevaron a ser diputado en 1932 
+          y reelecto en 1936, minaron sus finanzas, lo que le obligó a vender la propiedad a un acaudalado extranjero, quien, sin miramientos, pagó lo que aquel pedía. <br>
+          <br>
+          Quien compró la propiedad fue un venezolano recién llegado al país, Santos Matute Gómez, quien había tenido que dejar apresuradamente su patria, a la caída del 
+          gobierno dictatorial de su medio hermano, Juan Vicente Gómez y se refugió en Costa Rica. <br>
+          <br>
+          A Matute Gómez se le conoció, en San José, como “El coronel”. Tenía fama por su ostentoso nivel de vida, el lujo y abundancia de sus posesiones y sus 
+          extravagancias. Pronto empezaron a correr rumores sobre sus correrías sexuales y cómo tenía especial afición por las jovencitas, y aunque nunca se comprobó, 
+          se decía que también incluía jóvenes varones en sus aventuras de alcoba. <br>
+          <br>
+          Poco a poco, la mala fama de El coronel corrió por la sociedad costarricense. En 1949, se hicieron protestas públicas y se organizaron grupos de mujeres para 
+          pedir sanciones en su contra. En 1950, se le procesó por corrupción de menores y se le impuso una multa casi simbólica, la cual no satisfizo a sus detractores. 
+          <br>
+          Los movimientos populares se intensificaron y exigieron al presidente Ulate la expulsión del país de El coronel. Este prometió hacerlo en cuanto los tribunales 
+          dieran un veredicto final. Es así como, en noviembre de1951, fue expulsado del país, trasladándose a Panamá, junto con su esposa. También hubo rumores de que 
+          había conseguido un trato especial del presidente Arosemena Quinzada. Sus dos hijas quedaron en Costa Rica. Santos murió en Panamá en 1958. Su esposa lo había 
+          abandonado en 1952.
+        </p>
+
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <!-- <h3>Video</h3><br><br>
+    <div class="video-responsive">
+      <iframe  src="https://www.youtube.com/watch?v=hP5NhF_uUpg" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+      </div> -->
+      <h3>Video</h3><br>
+      <div class="ratio ratio-16x9">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/hP5NhF_uUpg?start=105" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+    
+      <hr class="featurette-divider">
+      <h3>Localización</h3><br>
+
+    <div class="map-responsive">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.055731248565!2d-84.071898935221!3d9.929316792899673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e37acbb7b153%3A0x4b5f2c13b69ad17f!2sAntik%20%2F%20Casa%20Matute!5e0!3m2!1ses!2scr!4v1631684370659!5m2!1ses!2scr" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <hr class="featurette-divider">
+  </div>
+
+
+  <!-- FOOTER -->
+
+  <div class="footer-line"></div>
+  
+  <footer class="footerContainer">
+
+    <div class="footerColumn">
+      <a href="https://www.visitcostarica.com/es/costa-rica/planning-your-trip/tips"><p class= "mr-3">Tips para viajeros</p></a>
+      <a href="https://www.ict.go.cr/es/"><p class= "mr-3">Recomendaciones</p></a>
+      <a href="https://www.airbnb.com/s/San-Jose--Costa-Rica/experiences?tab_id=experience_tab&refinement_paths%5B%5D=%2Fexperiences&flexible_trip_dates%5B%5D=november&flexible_trip_dates%5B%5D=october&flexible_trip_lengths%5B%5D=weekend_trip&date_picker_type=calendar&query=San%20Jose%2C%20Costa%20Rica&place_id=ChIJxRUNxULjoI8RNuhDZCmsjv8&checkin=2021-09-30&source=structured_search_input_header&search_type=autocomplete_click"><p class= "mr-3">Experiencias</p></a>
+    </div>
+
+    <div class="footerColumn footer-socials">
+      <div class="networkIconsContainer">
+        <div class="subRow"></div>
+        <img class="redes" src="icons/letter.svg" alt="logo-reddes">
+        <img class="redes" src="icons/youtube.svg" alt="logo-redes">                              
+        <img class="redes" src="icons/facebook.svg" alt="logo-redes">                              
+        <img class="redes" src="icons/instagram.svg" alt="logo-redes">
+      </div>
+
+      <p style="align-self: center; margin-top: 8px;"><a href="#">Ver términos y condiciones</a></p>
+
+    </div>
+  </footer>
+
+
+</main>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
